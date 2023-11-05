@@ -14,8 +14,12 @@
 # misc
 .DS_Store
 .env.local
+.env.development
 .env.development.local
 .env.test.local
+.env.staging
+.env.staging.local
+.env.production
 .env.production.local
 
 npm-debug.log*
