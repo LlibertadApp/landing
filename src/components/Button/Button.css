@@ -1,0 +1,17 @@
+
+.anchor-button {  
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    min-width: 200px;
+    height: 50px;
+    background-color: rgba(73, 37, 112, 0.9);
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Mohave', sans-serif;
+}
+
+.anchor-button:hover {
+    background-color: #3C2865;
+}
