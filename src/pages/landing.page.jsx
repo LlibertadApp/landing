@@ -1,6 +1,6 @@
 import React from 'react';
 import './landing.css';
-import LlaSection from '../components/llaSection.component';
+import LlaSection from '../components/LlaSection/llaSection.component';
 import Navbar from '../components/Navbar/Navbar';
 
 const LandingPage = () => {
