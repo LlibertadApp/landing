@@ -1,12 +1,13 @@
 import React from 'react';
 import './landing.css';
 import LlaSection from '../components/llaSection.component';
+import Navbar from '../components/Navbar/Navbar';
 
 const LandingPage = () => {
     return (
         <div className='container'>
             <div className='header'>
-                <h1>Header</h1>
+                <Navbar />
             </div>
             <div className='body'>
                 <h1>Body</h1>
