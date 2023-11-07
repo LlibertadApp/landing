@@ -20,7 +20,7 @@ const LlaSection = ({
                     {title}
                 </div>
                 <div className='img'>
-                    <img href={img} alt='imagen' />
+                    <img src={img} alt='imagen' />
                 </div>
             </div>
         </section>
