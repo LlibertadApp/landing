@@ -6,7 +6,7 @@
     height: 150px;
     align-items: center;
     justify-content: space-between;
-    background-color: #E3E3E9;
+    background: linear-gradient(#58319D, #3B2485);
     padding: 0px 20px 0 50px;
 }
 
@@ -31,7 +31,7 @@
 @media (max-width: 768px) {
     .navbar-container > nav > ul {
         position: absolute;
-        background-color: #E3E3E9;
+        background-color: #3B2485;
         top: 150px;
         left: 0;
         display: flex;

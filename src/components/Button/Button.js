@@ -1,8 +1,9 @@
 import './Button.css';
 
-const Button = ({caption, href}) => {
+const Button = ({caption, href, type = 'web', onClick}) => {
+
     return (
-        <a className='anchor-button' href={href}>{caption}</a>
+        <a className={type === 'mobile' ? 'anchor-button-mobile' : 'anchor-button'} href={href} onClick={onClick}>{caption}</a>
     )
 }
 
