@@ -1,5 +1,5 @@
 
-.container{
+.navbar-container{
     box-sizing: border-box;
     display: flex;
     width: 100%;
@@ -10,7 +10,7 @@
     padding: 0px 20px 0 50px;
 }
 
-nav > ul {
+.navbar-container > nav > ul {
     list-style: none;
     margin: 0;
     margin-block-start: 0;
@@ -19,7 +19,7 @@ nav > ul {
     align-items: center;
 }
 
-nav > ul > li {
+.navbar-container > nav > ul > li {
     position: relative;
     padding: 0 20px;
 }
@@ -29,7 +29,7 @@ nav > ul > li {
 }
 
 @media (max-width: 768px) {
-    nav > ul {
+    .navbar-container > nav > ul {
         position: absolute;
         background-color: #E3E3E9;
         top: 150px;
@@ -41,7 +41,7 @@ nav > ul > li {
         transform: translateX(-100%);
         transition: 0.3s ease all;
     }
-    nav > ul.open {
+    .navbar-container > nav > ul.open {
         transform: translateX(0) !important;
     }
     .nav-hamburguer {

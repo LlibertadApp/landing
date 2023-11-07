@@ -7,7 +7,7 @@ const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <div className='container'>
+        <div className='navbar-container'>
             <ReactLogo />
             <nav>
                 <ul className={isOpen && "open"}>
