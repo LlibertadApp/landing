@@ -16,7 +16,7 @@ function createModal(){
     div.classList.add("container");
     div.classList.add("contain-cookie");
     div.innerHTML = `
-    <span class="text-cookie text-white ">
+    <span class="text-cookie text-black ">
         Usamos cookies 🍪 para darte la mejor experiencia.
     </span>`;
     const btnElimniar = document.createElement("span");
