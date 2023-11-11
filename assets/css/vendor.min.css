@@ -19607,11 +19607,17 @@ label.form-control {
     background-color: #21325b;
 }
 .navbar-brand {
-    padding-top: 0;
-    padding-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+.navbar-brand h2 {
+    flex-grow: 1; /* Permite que el texto ocupe todo el espacio disponible */
+    padding-top: 12px;
 }
 .navbar-brand-logo {
-    width: 100%;
+    width: 56px;
+    height: auto;
+    margin-right: 10px; /* Ajusta el margen derecho según sea necesario */
 }
 .navbar-brand-collapsed,
 .navbar-brand-on-scroll {
