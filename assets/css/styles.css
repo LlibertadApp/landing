@@ -7,6 +7,34 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Add this CSS to your existing stylesheet or in a new stylesheet linked to your HTML */
+
+/* Adjust the breakpoint as needed */
+@media (min-width: 992px) {
+    /* For screens larger than or equal to lg (992px and above) */
+    #footer .row {
+      flex-wrap: nowrap; /* Keep the items in the row on the same line */
+    }
+  
+    #footer .col-lg-3 {
+      width: 25%; /* Adjust the width as needed */
+    }
+  
+    #footer .col-lg-4 {
+      width: 75%; /* Adjust the width as needed */
+    }
+  
+    #footer .col-lg-4 ul {
+      display: flex; /* Make the list items display horizontally */
+      justify-content: flex-start; /* Adjust as needed based on your design */
+    }
+  
+    #footer .col-lg-4 li {
+      margin-right: 0px; /* Adjust the spacing between social icons */
+    }
+  }
+  
+
 body {
     background-color: #FFFFFF;
     font-family: 'Epilogue', sans-serif!important;
@@ -18,7 +46,6 @@ body {
 }
 
 p {
-    text-align: justify;
 }
 
 b {
@@ -501,8 +528,8 @@ a:hover {
     line-height: 42px;
 }
 .list-checked-item {
-    color: #ffffff;
-    border-bottom: solid 1px #2d2e40;
+    color: #000000;
+    border-bottom: solid 1px #ffffff;
     padding-bottom: 10px;
     margin-bottom: 15px;
 }
