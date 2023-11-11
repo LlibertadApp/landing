@@ -3,7 +3,7 @@ name: Upload statics
 on:
   push:
     branches:
-      - prd
+      - main
 # env:
 #   ENVIRONMENT: "dev"
 #   Esto no funciona (ni ganas de renegar con el contexto)
