@@ -17,6 +17,10 @@ body {
     font-weight: 300;
 }
 
+p {
+    text-align: justify;
+}
+
 b {
     font-weight: 700;
 }
@@ -77,10 +81,12 @@ b {
 }
 .selected {
     background-color: #714FB6;
+    padding: 5px;
     color: white;
 }
 .selected-whitebg {
     background-color: #714FB6;
+    padding: 5px;
     color: white;
 }
 ::-moz-selection {
