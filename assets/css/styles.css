@@ -61,6 +61,15 @@ b {
     text-transform:uppercase;
 }
 
+.backdrop-blur {
+    backdrop-filter: blur(4px);
+    background-color: rgba(32, 3, 32, 0.449);
+    position: fixed;
+    min-height: 100vh;
+    z-index: 20;
+    min-width: 100vw;
+}
+
 
 ::selection {
     background: #ffffff;
