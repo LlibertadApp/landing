@@ -20,6 +20,7 @@ body {
 }
 .gtco-testimonials .owl-dots {
   text-align: center;
+  padding-top: 10px;
 }
 .gtco-testimonials .owl-dots span {
   position: relative;
@@ -28,7 +29,7 @@ body {
   border-radius: 50%;
   display: block;
   background: #000000;
-  border: 2px solid #7d7d7d;
+  border: 2px solid #000000;
   margin: 0 5px;
 }
 .gtco-testimonials .owl-dots .active {
@@ -43,7 +44,7 @@ body {
 }
 .gtco-testimonials .card {
   background: #fff;
-  box-shadow: 0 8px 30px -7px #000000;
+  box-shadow: 0 8px 20px -7px #000000;
   margin: 0 20px;
   padding: 0 10px;
   /* border-radius: 20px; */

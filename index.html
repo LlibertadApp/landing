@@ -2,42 +2,32 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
   <!--METAS-->
-
   <meta charset="utf-8">
   <meta name="viewport"
     content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
   <meta name="description" content="LibertApp">
   <meta name="keywords" content="LibertApp">
   <meta name="author" content="LibertApp">
-
   <!-- Facebook Metadata /-->
   <meta property="fb:page_id" content="">
   <meta property="og:image" content="/">
   <meta property="og:description" content="LibertApp">
   <meta property="og:title" content="LibertApp">
-
   <!-- Google+ Metadata /-->
   <meta itemprop="name" content="LibertApp">
   <meta itemprop="description" content="LibertApp">
   <meta itemprop="image" content="/">
-
   <!--Favicon-->
   <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#393939">
+  <link rel="icon" type="image/png" sizes="32x32" href="/landing/favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/landing/favicon.png">
+  <link rel="manifest" href="/landing/site.webmanifest">
   <meta name="msapplication-TileColor" content="#000000">
   <meta name="theme-color" content="#ffffff">
-
   <!-- Title -->
   <title>LibertApp - Defendamos la democracia</title>
-
-
   <!-- Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -54,6 +44,7 @@
   <link rel="stylesheet" href="./assets/css/styles_referrals.css">
   <link rel="stylesheet" href="./assets/css/styles.css?v=2.1">
 </head>
+
 <body>
   <header id="header" class="navbar navbar-expand-lg navbar-end navbar-absolute-top navbar-light navbar-show-hide">
     <div class="container">
@@ -71,23 +62,18 @@
         <div class="navbar-collapse collapse" id="navbarSite">
           <ul class="navbar-nav">
             <!-- Nav item -->
-            <li class="nav-item active">
-              <a class="nav-link scrollto" href="#home">Home</a>
-            </li>
-            <!-- End Nav item -->
-            <!-- Nav item -->
             <li class="nav-item text-white">
-              <a class="nav-link scrollto" href="#about-us">Whitepaper</a>
+              <a class="nav-link scrollto" href="#whoami">Whitepaper</a>
             </li>
             <!-- End Nav item -->
             <!-- Nav item -->
             <li class="nav-item">
-              <a class="nav-link scrollto" href="#holding">¿Cómo fiscalizo?</a>
+              <a class="nav-link scrollto" href="#fiscalizar">¿Cómo fiscalizo?</a>
             </li>
             <!-- End Nav item -->
             <!-- Nav item -->
             <li class="nav-item">
-              <a class="nav-link scrollto" href="/partner/">Preguntas Frecuentes</a>
+              <a class="nav-link scrollto" href="#team">Preguntas Frecuentes</a>
             </li>
             <!-- End Nav item -->
           </ul>
@@ -95,6 +81,7 @@
       </nav>
     </div>
   </header>
+  <div id="backdrop-blur-overlay" class=""></div>
   <!-- ========== END HEADER ========== -->
   <!-- ========== PRELOADER ========== -->
   <div class="preloader ">
@@ -111,22 +98,43 @@
       <div class="container">
         <div id="scrollbg">
           <div class="row align-items-center">
-
-            <div class="col-xl-8 col-lg-6">
-              <div class="box_text-hero">
-
-                <h1 class="title-hero text-black mb-5 wow fadeInUpSmall" data-wow-duration="1s" data-wow-delay=".3s"> <a href="app.libertapp.net">Seamos <span class="selected">transparentes<br></span>con<span class="selected">libertapp</span> <br> </span>Hace click y controlá tu <span
-                  class="selected">fiscalización.</span></h1></a>
+            <!-- Order columns based on screen size -->
+            <div class="col-xl-4 col-lg-6 order-lg-2 text-center text-lg-start">
+              <div class="position-relative h-100 d-flex align-items-center pb-5 pb-lg-0">
+                <!-- Hide the image on screens smaller than large (lg) -->
+                <div class="img-hero d-none d-lg-block" data-jarallax-element="-45 0" data-disable-parallax-down="lg">
+                  <img src="assets/img/hero/hero2.png" style="width: 120%; max-width: 300%; margin-left: 10px;">
+                </div>
               </div>
             </div>
             <!-- End Col -->
 
-            <!-- Shapes -->
-            <div class="col-xl-4 col-lg-6 ms-auto">
-              <div class="position-relative h-100 pb-5 pb-lg-0">
-                <div class="img-hero" data-jarallax-element="-45 0" data-disable-parallax-down="lg">
-                  <img src="assets/img/hero/hero-mockup.png" style="width: 100%; max-width: 100%;">
-                </div>
+            <div class="col-xl-8 col-lg-6 order-lg-1">
+              <div class="box_text-hero">
+                <h1 class="title-hero text-black mb-5 wow fadeInUpSmall" data-wow-duration="1s" data-wow-delay=".3s">
+                  <a href="https://app.dev.libertapp.net/">Seamos
+                    <span class="selected">transparentes<br></span>con <span class="selected">LibertApp</span> <br>
+                    </span>Hacé
+                    click y controlá la <span class="selected">fiscalización.</span>
+                </h1>
+                </a>
+                <a href="" target="_blank" class="btn-violet">
+                  <div class="align-items-center pb-1 col flex-column mx-1">
+
+                    <svg width="32px" height="32px" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg"
+                      style="enable-background:new 0 0 192 192" xml:space="preserve" fill="#000000">
+                      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                      <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                      <g id="SVGRepo_iconCarrier">
+                        <path
+                          d="M84 128.6H54.6C36.6 128.6 22 114 22 96c0-9 3.7-17.2 9.6-23.1 5.9-5.9 14.1-9.6 23.1-9.6H84m24 65.3h29.4c9 0 17.2-3.7 23.1-9.6 5.9-5.9 9.6-14.1 9.6-23.1 0-18-14.6-32.6-32.6-32.6H108M67.9 96h56.2"
+                          style="fill:none;stroke:#ffffff;stroke-width:12;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10">
+                        </path>
+                      </g>
+                    </svg>
+                  </div>
+                   LibertApp | WebApp
+                </a>
               </div>
             </div>
             <!-- End Col -->
@@ -135,6 +143,9 @@
         </div>
       </div>
     </section>
+
+
+
     <!-- End Hero -->
     <div id="about-us" class="bg-white content-space-t-1 content-space-b-2 content-space-t-lg-2 content-space-b-lg-4">
       <div class="container">
@@ -147,8 +158,9 @@
             <!-- End Col -->
             <div class="col-lg-9">
               <div>
-
-                <h4 class="display-6 font-300 wow fadeInUpSmall text-black" data-wow-duration="1s" data-wow-delay=".2s">LibertApp la primera aplicación de control de fiscalización para campaña de latinoamérica.</h4>
+                <h4 class="display-6 font-300 wow fadeInUpSmall text-black" data-wow-duration="1s" data-wow-delay=".2s">
+                  LibertApp, la primera app de control y fiscalización para campañas electorales en América Latina
+                </h4>
               </div>
               <!-- End Heading -->
             </div>
@@ -159,235 +171,191 @@
         </div>
       </div>
     </div>
-    <section class="content-space-t-3 content-space-b-2 content-space-b-lg-0" id="holding">
+
+
+    <section class="content-space-b-2 content-space-b-lg-0 mt-8" id="whoami">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 mb-4">
-            <h2 class="wow fadeInUpSmall text-black" data-wow-duration="1s" data-wow-delay=".3s"> <span
-                class="selected-whitebg">¿Quienes somos?</span></h2>
-            <!-- <h1 class="mb-lg-2 title-hero text-black wow fadeInUpSmall" data-wow-duration="1s" data-wow-delay=".2s">Innovative Digital Solutions: </h1> -->
+            <h2 class="wow fadeInUpSmall text-black" data-wow-duration="1s" data-wow-delay=".3s">
+              <span class="selected-whitebg">Nuestra Solución</span>
+            </h2>
           </div>
         </div>
       </div>
     </section>
-    <section class="content-space-b-2 content-space-b-lg-3">
+    <section class="content-space-b-lg-3">
       <div class="container">
-        <div class="row align-items-center border-b-black content-space-b-lg-3">
+        <div class="row align-items-center content-space-b-lg-3 gap-8">
           <div class="col-lg-5 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
             <div class=" pb-3">
-              <p class="font-300">Somos un grupo organizado de más de 300 expertos en tecnología, estamos comprometidos con la creación y la innovación. 
+              <p class="font-300"><b>Somos un grupo organizado de más de 300 expertos en tecnología, estamos comprometidos
+                con la creación y la innovación.</b>
+              </br>
                 <br>
-                Al valorar la libertad, estamos firmemente convencidos de que para preservarla es imprescindible una sólida fiscalización que, a su vez, promueva la transparencia de los procesos electorales para el beneficio de toda la ciudadanía.
+                Al valorar la libertad, estamos firmemente convencidos de que para preservarla es imprescindible una
+                sólida fiscalización que, a su vez, promueva la transparencia de los procesos electorales para el
+                beneficio de toda la ciudadanía.
                 <br>
-
-                Y acá es donde llega libertapp, un ejemplo de nuestra capacidad para desarrollar una app en tan solo 10 días, demostrando cómo la organización y la transparencia generan nuevos progresos tecnológicos.</p>
-              <p class="font-300 mb-lg-2 selected"><a href="google.com">Conocenos más</a></p>
+                En este contexto surge LibertApp, una aplicacion que ayudara a los fiscales a realizar su trabajo de
+                control electoral automatizando la comparacion de los telegramas con las actas de escrutinio.
+              </p>
             </div>
-            <a href="https://twitter.com/libertapp" target="_blank" class="btn-black">
-              Twitter
-            </a>
-            <a href="app.libertapp.net" target="_blank" class="btn-black">
+            <a href="" target="_blank" class="btn-violet">
               LibertApp | WebApp
             </a>
           </div>
           <!-- End Col -->
-          <div class="col-lg-7 mb-10 mb-lg-0">
-            <img src="" class="w-xs-100 mx-auto d-block wow fadeInUpSmall"
-            data-wow-duration="1s" data-wow-delay=".2s">
-          </div>
-          <!-- End Col -->
-        </div>
-        <!-- End Row -->
-      </div>
-    </section>
-    <!-- ./ Section 7 -->
-    <section class="content-space-t-3 content-space-b-2 content-space-b-lg-0" id="holding">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 mb-4">
-            <h2 class="wow fadeInUpSmall text-black" data-wow-duration="1s" data-wow-delay=".3s"> <span
-                class="selected-whitebg">¿Qué problema encontramos?</span></h2>
-            <!-- <h1 class="mb-lg-2 title-hero text-black wow fadeInUpSmall" data-wow-duration="1s" data-wow-delay=".2s">Innovative Digital Solutions: </h1> -->
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Section 2 -->
-
-
-
-
-
-
-
-
-
-    <section class="content-space-b-2 content-space-b-lg-3 container-md" >
-      <p class="font-300 wow fadeInUpSmall" data-wow-duration="1s" data-wow-delay=".2s">
-        Encontramos muchas oportunidades de mejora tanto del circuito del escrutinio provisional como del definitivo, donde se encuentran distintas dificultades. 
-        <br>
-        El escrutinio provisorio, en términos generales presenta varias debilidades, y en todo su proceso puede desembocar en anomalías en el resultado de la votación que nos muestran en los resultados.
-        <br>
-        Gran parte de los errores pueden suponer fraude, inclusive contando con fiscales honestos.
-      </p>
-      <div>
-        <h2 class="wow fadeInUpSmall text-black" data-wow-duration="1s" data-wow-delay=".3s"> <span
-          class="selected-whitebg">¿Qué problema encontramos?</span></h2>
-          <img src="assets/img/sections/ruta.jpg" alt="" class="h-25 w-25 mx-auto d-block wow fadeInUpSmall rounded float-end" data-wow-duration="1s"
-          data-wow-delay=".2s">
-      </div>
-    </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <section class="content-space-b-2 content-space-b-lg-3">
-      <div class="container">
-        <div class="row align-items-center border-b-black content-space-b-lg-3">
-          <div class="col-lg-5 order-lg-2">
-            <div class="pb-3">
-              <p class="font-300 wow fadeInUpSmall" data-wow-duration="1s" data-wow-delay=".2s">
-                Encontramos muchas oportunidades de mejora tanto del circuito del escrutinio provisional como del definitivo, donde se encuentran distintas dificultades. 
-                <br>
-                El escrutinio provisorio, en términos generales presenta varias debilidades, y en todo su proceso puede desembocar en anomalías en el resultado de la votación que nos muestran en los resultados.
-                <br>
-                Gran parte de los errores pueden suponer fraude, inclusive contando con fiscales honestos.
-              </p>
-              <p class="font-300 mb-lg-2 wow fadeInUpSmall" data-wow-duration="1s" data-wow-delay=".3s">Con un poco de profundidad en la app y para saber mas podes </p>
-            </div>
-          </div>
-          <!-- End Col -->
-          <div class="h-25 order-lg-1 mb-10 mb-lg-0">
-            <img src="assets/img/sections/ruta.jpg" alt="" class="h-25 w-25 mx-auto d-block wow fadeInUpSmall" data-wow-duration="1s"
+          <div class="col-lg-5 order-lg-1 mb-4 mb-lg-0">
+            <img src="assets/img/svg/lapp-out.svg" alt="" class="img-fluid wow fadeInUpSmall" data-wow-duration="1s"
               data-wow-delay=".2s">
           </div>
           <!-- End Col -->
         </div>
         <!-- End Row -->
       </div>
-    </section>-->
-    <!-- ./ Section 2 -->
-    <section class="content-space-t-3 content-space-b-2 content-space-b-lg-0" id="holding">
+    </section>
+    <!-- Section 2 -->
+    <section class="content-space-b-2 content-space-b-lg-3">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 mb-4">
-            <h1 class="wow fadeInUpSmall text-black" data-wow-duration="1s" data-wow-delay=".3s"> <span
-                class="selected-whitebg">Nuestra solución</span></h1>
+            <h2 class="wow fadeInUpSmall text-black" data-wow-duration="1s" data-wow-delay=".3s"> <span
+                class="selected-whitebg">¿Quiénes somos?</span></h2>
             <!-- <h1 class="mb-lg-2 title-hero text-black wow fadeInUpSmall" data-wow-duration="1s" data-wow-delay=".2s">Innovative Digital Solutions: </h1> -->
           </div>
         </div>
       </div>
     </section>
-    <!-- Section 1 -->
-    <section class="content-space-b-2 content-space-b-lg-3">
+
+    <section>
       <div class="container">
-        <div class="row align-items-center border-b-black">
-          <div class="col-lg-5">
+        <div class="row align-items-center content-space-b-lg-3 ">
+          <div class="col-lg-7 order-lg-2">
             <div class="pb-3">
               <p class="font-300 wow fadeInUpSmall" data-wow-duration="1s" data-wow-delay=".2s">
-
-                Libertapp trae una solución a las anomalías que pueden suceder entre el proceso de fiscalización y escrutinio. 
-
-                <br>
-                La app concentra la carga de datos, la almacena, y luego, cuando comienza el escrutinio provisorio la analiza.
-                <br>         
-                Dentro de las soluciones que ya existen no resuelven nada de la problemática mencionada, y es donde LibertApp permite identificar posibles errores por mesa, compara lo cargado por los fiscales y detecta posibles errores e inmediatamente las expone de manera conjunta.
+                Identificamos diversas oportunidades de mejora tanto en el proceso de escrutinio provisional como en el
+                definitivo, donde se presentan diversas dificultades.
+              </br>En términos generales, <b>el escrutinio provisorio exhibe varias debilidades</b>, lo que podría conducir a
+                anomalías en los resultados de la votación.
+              </br>
+              </br> Es crucial señalar que una parte significativa de estos errores potenciales podría dar lugar a
+                situaciones que podrían interpretarse como fraudulentas,
+                incluso con la presencia de fiscales honestos.
               </p>
-
-              <p class="font-300 mb-lg-2 wow fadeInUpSmall" data-wow-duration="1s" data-wow-delay=".3s"></p>
-
-            </div>
-            <div class="pb-10 pb-lg-0 wow fadeInUpSmall" data-wow-duration="1s" data-wow-delay=".4s">
-              <!-- button -->
+              <!--<p class="font-300 mb-lg-2 wow fadeInUpSmall" data-wow-duration="1s" data-wow-delay=".3s">Con un poco de
+                profundidad en la app y para saber más puedes </p> Lo dejo comentado porque ni perra idea qué quiso poner crystal aca -->
             </div>
           </div>
           <!-- End Col -->
-          <div class="col-lg-7">
-            <img src="assets/img/sections/block-gaming2.svg" class="w-100 h-100 wow fadeInUpSmall"
-              data-wow-duration="1s" data-wow-delay=".2s">
+          <div class="col-lg-5 order-lg-1 mb-4 mb-lg-0">
+            <img src="assets/img/sections/ruta.png" alt="" class="img-fluid wow fadeInUpSmall" data-wow-duration="1s"
+              data-wow-delay=".2s">
+          </div>
+          <!-- End Col -->
+        </div>
+        <!-- End Row -->
+      </div>
+    </section><!-- ./ Section 2 -->
+
+    <section class="content-space-b-2 content-space-b-lg-0" id="whoami">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mb-4">
+            <h2 class="wow fadeInUpSmall text-black" data-wow-duration="1s" data-wow-delay=".3s">
+              <span class="selected-whitebg">Nuestra Solución</span>
+            </h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-space-b-2 content-space-b-lg-3">
+      <div class="container">
+        <div class="row align-items-center content-space-b-lg-3">
+          <div class="col-lg-6 order-lg-1 mb-4 mb-lg-0">
+            <img src="assets/img/sections/app3.png" alt="" class="img-fluid wow fadeInUpSmall" data-wow-duration="1s"
+              data-wow-delay=".2s" style="margin-bottom: 20px;">
+          </div>
+          <!-- End Col -->
+          <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+            <div class="pb-3">
+              <p class="font-300"><b>
+                LibertApp trae una solución a las anomalías que pueden suceder entre el proceso de fiscalización y
+                escrutinio.</b></br>
+              </br>
+                
+                La app concentra la carga de datos, la almacena y, cuando comienza el escrutinio provisorio, la analiza.
+              </br>A diferencia de otras soluciones, LibertApp permite identificar posibles errores por mesa, compara lo
+                cargado por los fiscales
+                y detecta posibles errores, exponiéndolos inmediatamente de manera conjunta.
+              </p>
+            </div>
           </div>
           <!-- End Col -->
         </div>
         <!-- End Row -->
       </div>
     </section>
+
+
     <!-- ./ Section 1 -->
-    <section class="content-space-t-3 content-space-b-2 content-space-b-lg-0" id="holding">
+    <section class="content-space-b-2 content-space-b-lg-2" id="fiscalizar">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12">
+          <div class="col-lg-12 mb-4">
             <h2 class="wow fadeInUpSmall text-black" data-wow-duration="1s" data-wow-delay=".3s"> <span
-                class="selected-whitebg mb-4">¿Cómo fiscalizar?</span></h2>
-            <!-- <h1 class="mb-lg-2 title-hero text-black wow fadeInUpSmall" data-wow-duration="1s" data-wow-delay=".2s">Innovative Digital Solutions: </h1> -->
+                class="selected-whitebg mb-4">¿Cómo fiscalizar para LLA?</span></h2>
           </div>
         </div>
       </div>
     </section>
     <!-- Section 4 -->
-    <section class="content-space-b-2 content-space-b-lg-3">
+    <section class="content-space-b-2 content-space-b-lg-3" id="faq">
       <div class="container">
-        <div class="row align-items-center border-b-black content-space-b-lg-3">
+        <div class="row align-items-center content-space-b-lg-3 gap-8">
+          <div class="col-lg-5 order-lg-1 mb-4 mb-lg-0">
+            <img src="assets/img/svg/lla-big.svg" alt="" class="img-fluid wow fadeInUpSmall" data-wow-duration="1s"
+              data-wow-delay=".2s">
+          </div>
           <div class="col-lg-5 order-lg-2">
             <div class="mb-5">
-              <img src="assets/img/logo/logo-security.svg" alt="" class="wow fadeInUp" data-wow-duration="1s"
+              <!--<img src="assets/img/logo/logo-security.svg" alt="" class="wow fadeInUp" data-wow-duration="1s"
                 data-wow-delay=".2s">
-            </div>
-            <div class="pb-3">
-              <p class="font-300 wow fadeInUpSmall" data-wow-duration="1s" data-wow-delay=".2s">
-                Fiscalizar es sumamente importante en todas las elecciones, por eso los invitamos a formar parte mas
-                activa de nuestra democracia
-              </p>
-            </div>
-            <div class="pb-10 pb-lg-0 wow fadeInUpSmall" data-wow-duration="1s" data-wow-delay=".4s">
-              <!-- button -->
-              <a class="btn-black" href="https://fiscales.milei2023.com.ar/" target="_blank">hace click para fiscalizar</a> </a><!-- ./ button -->
+            </div> Descomenten cuando esté el logo -->
+              <div class="pb-3">
+                <p class="font-300 wow fadeInUpSmall" data-wow-duration="1s" data-wow-delay=".2s">
+                  La fiscalización juega un papel crucial en cada elección, por eso, los instamos a sumarse de manera
+                  más activa a nuestra democracia.
+                </br>
+                  ¡Regístrate para fiscalizar con La Libertad Avanza haciendo clic en el botón de abajo!
+                </p>
+              </div>
+              <div class="pb-10 pb-lg-0 wow fadeInUpSmall" data-wow-duration="1s" data-wow-delay=".4s">
+                <a class="btn-violet" href="https://fiscales.milei2023.com.ar/" target="_blank">Hacé click para
+                  fiscalizar</a> </a>
+              </div>
             </div>
           </div>
-          <!-- End Col -->
-          <div class="h-25 order-lg-1 mb-10 mb-lg-0">
-            <img src="assets/img/sections/block-4.webp" class=" mx-auto d-block wow fadeInUpSmall"
-              data-wow-duration="1s" data-wow-delay=".2s" alt="">
-          </div>
-          <!-- End Col -->
         </div>
-        <!-- End Row -->
-      </div>
     </section>
-    <!-- ./ Section 4 -->
-    <!-- Team -->
-    <section class="bg-black content-space-t-2 content-space-t-lg-2 " id="team">
+
+    <section class="bg-transparent content-space-t-2 content-space-t-lg-2   " id="team">
       <div class="container wow fadeInUpSmall" data-wow-duration="1s" data-wow-delay=".1s">
+        <p class="font-700 text-black mb-4">Preguntas Frecuentes (FAQ) </p>
         <div class="row content-space-b-1">
-          <div class="d-flex align-items-center">
-            <h2 class="font-700 infinix-title-white wow fadeInUpSmall" data-wow-duration="1s" data-wow-delay=".1s">Preguntas Frecuentes</h2>
-          </div>
           <div class="gtco-testimonials">
             <div class="owl-carousel owl-carousel1 owl-theme">
               <div class="card text-center">
-                <div class="mb-1 text-end imgTeam">
+                <div class="mb-4 text-center imgTeam">
                   <img src="" class="w-35" alt="">
                 </div>
                 <div class="card-body">
                   <div class="text-center pb-1">
-                    <h3 class="font-400 text-black">¿Necesitamos dinero?</h3>
-                    <p class="font-300">Nunca nadie de LibertApp va a pedir dinero, cualquiera que lo pida no forma parte del equipo</p>
+                    <h3 class="font-400 text-black mb-4">¿Como descargar LibertApp?</h3>
+                    <p class="font-300">¡No necesitas descargarla! LibertApp es una aplicación web, donde cualquiera
+                      con el enlace puede acceder desde su telefono o computadora.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -397,10 +365,10 @@
                 </div>
                 <div class="card-body">
                   <div class="text-center pb-1">
-
-                    <h3 class="font-400 text-black">¿Como descargar LibertApp?</h3>
-                    <p class="font-300">libertapp no se podra descargar, sera una pagina web, donde cualquiera podra enterarse de las anomalias. Y donde los fiscales tendran un apartado para cargar los datos</p>
-
+                    <h3 class="font-400 text-black mb-4">¿Qué puede hacer el fiscal en la app?</h3>
+                    <p class="font-300">En la aplicación, el fiscal tiene la capacidad de ingresar los datos
+                      correspondientes al escrutinio de las mesas que le fueron asignadas.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -410,8 +378,9 @@
                 </div>
                 <div class="card-body">
                   <div class="text-center pb-1">
-                    <h2 class="font-400 text-black">¿Que puede hacer el fiscal en la app?</h2>
-                    <p class="font-300">El fiscal en la app puede cargar los datos de lo que firmo en su escrutinio en las mesas que se le otorgaron</p>
+                    <h3 class="font-400 text-black mb-4">¿Necesitamos dinero?</h3>
+                    <p class="font-300">De parte de la organizacion nunca solicitaremos dinero y todo aquel que lo haga
+                      no forma parte de la organización.</p>
                   </div>
                 </div>
               </div>
@@ -421,8 +390,10 @@
                 </div>
                 <div class="card-body">
                   <div class="text-center pb-1">
-                    <h2 class="font-400 text-black">¿Que es LibertApp?</h2>
-                    <p class="font-300">LibertApp es una webapp que busca dar conocimiento de errores que podrian ocurrir en el proceso electoral, escanea lo que  suben en resultados.gob.ar y compara con lo que se firmo al finalizar el escrutinio de la mesa por los fiscales</p>
+                    <h3 class="font-400 text-black mb-4">¿Qué es LibertApp?</h3>
+                    <p class="font-300">LibertApp es una aplicación web que busca dar conocimiento de errores que
+                      podrían
+                      ocurrir en el proceso electoral</p>
                   </div>
                 </div>
               </div>
@@ -432,103 +403,65 @@
                 </div>
                 <div class="card-body">
                   <div class="text-center pb-1">
-
-                    <h2 class="font-400 text-black">¿Cuando estara disponible la app?</h2>
-                    <p class="font-300">La app estara disponible en todos los navegadores a partir del dia de las elecciones. 19/11</p>
-
+                    <h3 class="font-400 text-black mb-4">¿Cuándo estará disponible la app?</h3>
+                    <p class="font-300">La app estará disponible en todos los navegadores a partir del día de las
+                      elecciones, el 19 de Noviembre de 2023</p>
                   </div>
                 </div>
-              </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      </div>
     </section>
-    <!-- ./ Team -->
     <!-- ========== FOOTER ========== -->
-    <footer id="contact" class="bg-black footer">
+    <footer id="footer" class="bg-transparent">
       <div class="container border-top-gray content-space-t-2 content-space-b-1">
         <div class="row">
-          <div class="col-lg-3 mb-5 mb-md-0">
-            <!-- Links -->
-            <ul class="list-unstyled list-py-1 mb-0 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
-              <li><a class="text-white" href="" target="_blank"><b>LibertApp</b> Twitter</a></li>
-              <li><a class="text-white" href="" target="_blank"><b>LibertApp</b> TikTok</a>
-              </li>
-              <li><a class="text-white" href="" target="_blank"><b>LibertApp</b> Instagram</a></li>
-            </ul>
-            <!-- Nav Links -->
-            <!-- End Nav Links -->
-            <!-- End Links -->
-          </div>
-          <!-- End Col -->
-          <div class="col-lg-3 mb-5 mb-md-0">
-            <ul class="list-unstyled list-py-1 mb-0 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
-            </ul>
-          </div>
-          <!-- End Col -->
-          <div class="col-lg-2 mb-5 mb-md-0">
-          </div>
-          <!-- End Col -->
-          <div class="col-lg-6 text-center text-lg-start mt-4">
-            <!-- Socials -->
-            <ul class="list-inline mb-0">
+          <div class="col-lg-4 text-center text-lg-start mt-4">
+            <ul class="list-inline mb-4 gap-2">
               <li class="list-inline-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
-                <a class="btn btn-sm btn-icon" href="" target="_blank">
+                <a class="btn btn-sm btn-icon" href="https://twitter.com/libertapp" target="_blank">
                   <img src="assets/img/social/ic-twitter.svg">
                 </a>
               </li>
               <li class="list-inline-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
-                <a class="btn btn-sm btn-icon" href="" target="_blank">
+                <a class="btn btn-sm btn-icon" href="https://www.instagram.com/libertadapp/" target="_blank">
                   <img src="assets/img/social/ic-instagram.svg">
                 </a>
               </li>
               <li class="list-inline-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.7s">
-                <a class="btn btn-sm btn-icon" href="" target="_blank">
-                  <img src="assets/img/social/ic-linkedin.svg">
+                <a class="btn btn-sm btn-icon" href="https://www.tiktok.com/@libertadapp" target="_blank">
+                  <img src="assets/img/svg/ic-tiktok.svg">
                 </a>
               </li>
+
             </ul>
-            <!-- End Socials -->
+            <a class="text-black" href="https://app.dev.libertapp.net">LibertApp - 2023</a>
+
           </div>
-          <!-- End Col -->
         </div>
-        <!-- End Row -->
-        <div class="row content-space-t-3">
-          <div class="col-lg-12">
-            <p class="text-white mb">LibertApp - 2023 <br> | VLLC</p>
-          </div>
-          <!-- End Col -->
-        </div>
-        <!-- End Row -->
       </div>
     </footer>
-    <!-- ========== END FOOTER ========== -->
+
   </main>
-  <!-- ========== END MAIN CONTENT ========== -->
   <a href="#home" class="scrollto page-scroll" id="back-to-top">
     <div class="btn-go-top"><i class="bi-chevron-up"></i></div>
   </a>
-  <!-- JS -->
   <script src="assets/js/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.9/SmoothScroll.min.js"></script>
   <script src="assets/js/vendor.min.js"></script>
   <script src="assets/js/jquery.easing.min.js"></script>
   <script src="assets/js/jquery.magnific-popup.js"></script>
-  <script src="assets/js/swiper-bundle.min.js"></script>
   <script src="assets/js/wow.js"></script>
   <script src="assets/js/preloader.js"></script>
-  <script src="assets/js/cookies.js"></script>
   <script src="assets/js/jarallax.min.js"></script>
   <script src="assets/js/jarallax-element.min.js"></script>
   <script src="assets/js/scripts.js"></script>
-  <!-- JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-  <script src="../assets/js/team.js"></script>
-  <!-- Start of HubSpot Embed Code -->
+  <script src="assets/js/team.js"></script>
   <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/22404315.js"></script>
-  <!-- End of HubSpot Embed Code -->
 </body>
 
 </html>

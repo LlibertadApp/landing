@@ -7,6 +7,34 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Add this CSS to your existing stylesheet or in a new stylesheet linked to your HTML */
+
+/* Adjust the breakpoint as needed */
+@media (min-width: 992px) {
+    /* For screens larger than or equal to lg (992px and above) */
+    #footer .row {
+      flex-wrap: nowrap; /* Keep the items in the row on the same line */
+    }
+  
+    #footer .col-lg-3 {
+      width: 25%; /* Adjust the width as needed */
+    }
+  
+    #footer .col-lg-4 {
+      width: 75%; /* Adjust the width as needed */
+    }
+  
+    #footer .col-lg-4 ul {
+      display: flex; /* Make the list items display horizontally */
+      justify-content: flex-start; /* Adjust as needed based on your design */
+    }
+  
+    #footer .col-lg-4 li {
+      margin-right: 0px; /* Adjust the spacing between social icons */
+    }
+  }
+  
+
 body {
     background-color: #FFFFFF;
     font-family: 'Epilogue', sans-serif!important;
@@ -15,6 +43,9 @@ body {
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     color: #2D2E40;
     font-weight: 300;
+}
+
+p {
 }
 
 b {
@@ -61,6 +92,15 @@ b {
     text-transform:uppercase;
 }
 
+.backdrop-blur {
+    backdrop-filter: blur(4px);
+    background-color: rgba(32, 3, 32, 0.449);
+    position: fixed;
+    min-height: 100vh;
+    z-index: 20;
+    min-width: 100vw;
+}
+
 
 ::selection {
     background: #ffffff;
@@ -68,10 +108,12 @@ b {
 }
 .selected {
     background-color: #714FB6;
+    padding: 5px;
     color: white;
 }
 .selected-whitebg {
     background-color: #714FB6;
+    padding: 5px;
     color: white;
 }
 ::-moz-selection {
@@ -196,8 +238,8 @@ a:hover {
     bottom: 0;
     left: 0;
     padding: 1em;
-    color: rgb(255, 255, 255);
-    background-color: rgb(17, 17, 17);
+    color: rgb(17, 17, 17);
+    background-color: rgb(255, 255, 255);
     font-size: 12px;
 }
 
@@ -486,8 +528,8 @@ a:hover {
     line-height: 42px;
 }
 .list-checked-item {
-    color: #ffffff;
-    border-bottom: solid 1px #2d2e40;
+    color: #000000;
+    border-bottom: solid 1px #ffffff;
     padding-bottom: 10px;
     margin-bottom: 15px;
 }

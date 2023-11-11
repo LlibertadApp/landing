@@ -40,6 +40,46 @@
         })
     })
 
+    //Navbar blur on show
+    $(document).ready(function(){
+        $(".navbar-toggler").on("click", function() {
+            if($(".navbar-toggler").attr('class').includes('collapsed')) {
+                drawBackdropBlur(false);
+            } else {
+                drawBackdropBlur(true);
+            }
+        });
+    })
+
+    //Hide navbar menu on item click
+    $(document).ready(function(){
+        let navItems = $(".nav-item");
+
+        navItems.click(function(e){
+            $(".navbar-collapse").removeClass('collapsed');
+            $(".navbar-collapse").removeClass('show');
+            drawBackdropBlur(false);
+        })
+    })
+
+    const drawBackdropBlur = (draw) => {
+        var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+        if (isMobile) {
+            if(draw) {
+                $("#backdrop-blur-overlay").addClass('backdrop-blur')
+                $('html, body').css({
+                    overflow: 'hidden'
+                });
+            } else {
+                $("#backdrop-blur-overlay").removeClass('backdrop-blur')
+                $('html, body').css({
+                    overflow: 'scroll'
+                });    
+            }
+        }
+        
+    }
+
 
 
 
