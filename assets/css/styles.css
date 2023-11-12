@@ -144,6 +144,7 @@ a {
 a:hover {
     color: #cacaca;
     text-decoration: none;
+    transition-duration: 200ms;
 }
 
 .containerT{
@@ -341,6 +342,12 @@ a:hover {
     border-color: transparent;
     padding: 9px 23px 6px;
     border-radius: 50px;
+}
+
+.btn-violet:hover {
+    color: #FFFFFF;
+    background-color: #61439d;
+    transition-duration: 200ms;
 }
 
 .btn-black:hover {
