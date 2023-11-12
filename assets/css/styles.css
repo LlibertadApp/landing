@@ -470,6 +470,16 @@ a:hover {
     align-items: center;
     display: flex;
 }
+
+.hero-link-hover {
+    transition: color 250ms ease-in-out;
+    color: black;
+}
+
+.hero-link-hover:hover {
+    opacity: rgb(214, 214, 214);
+}
+
 @media (max-width: 768px) {
     #home {
        height: 100%;
