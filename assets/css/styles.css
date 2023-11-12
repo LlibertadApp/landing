@@ -258,7 +258,7 @@ a:hover {
     display: inline-block;
     margin-right: 0.3em;
     margin-bottom: 0;
-    *margin-left: 3em;
+    margin-left: 3em;
     line-height: 20px;
     vertical-align: middle;
     cursor: pointer;
@@ -302,7 +302,9 @@ a:hover {
     background-color: #ffffff;
     opacity: 1;
 }
-
+.btn-go-top span{
+    display: none;
+}
 
 .btn-white {
     color: black;
