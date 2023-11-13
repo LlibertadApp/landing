@@ -297,10 +297,18 @@ a:hover {
     transition: 0.3s ease-out;
     bottom: 0rem;
 }
+
 .btn-go-top:focus:hover, .btn-go-top:hover {
     color: #000000;
     background-color: #ffffff;
     opacity: 1;
+}
+.btn-go-top:hover svg{
+    fill:black;
+}
+.btn-go-top svg{
+    fill:white;
+    width:60%;
 }
 .btn-go-top span{
     display: none;
