@@ -144,6 +144,7 @@ a {
 a:hover {
     color: #cacaca;
     text-decoration: none;
+    transition-duration: 200ms;
 }
 
 .containerT{
@@ -257,7 +258,7 @@ a:hover {
     display: inline-block;
     margin-right: 0.3em;
     margin-bottom: 0;
-    *margin-left: 3em;
+    margin-left: 3em;
     line-height: 20px;
     vertical-align: middle;
     cursor: pointer;
@@ -301,7 +302,9 @@ a:hover {
     background-color: #ffffff;
     opacity: 1;
 }
-
+.btn-go-top span{
+    display: none;
+}
 
 .btn-white {
     color: black;
@@ -341,6 +344,12 @@ a:hover {
     border-color: transparent;
     padding: 9px 23px 6px;
     border-radius: 50px;
+}
+
+.btn-violet:hover {
+    color: #FFFFFF;
+    background-color: #61439d;
+    transition-duration: 200ms;
 }
 
 .btn-black:hover {
