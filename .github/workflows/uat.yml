@@ -1,0 +1,47 @@
+
+name: Upload statics
+on:
+  push:
+    branches:
+      - uat
+# env:
+#   ENVIRONMENT: "uat"
+#   Esto no funciona (ni ganas de renegar con el contexto)
+#     Para prd/uat, hay que reemplazar  'environment: uat'
+permissions:
+  id-token: write   # This is required for requesting the JWT
+  contents: read    # This is required for actions/checkout
+
+jobs:
+
+  S3PackageUpload:
+    runs-on: ubuntu-latest
+    environment: uat
+    steps:
+    - name: Git clone the repository
+      uses: actions/checkout@v3
+    - name: configure aws credentials
+      uses: aws-actions/configure-aws-credentials@v4
+      with:
+        role-to-assume: arn:aws:iam::${{secrets.AWS_ACCOUNT_ID}}:role/${{vars.ROLE_TO_ASSUME}}
+        role-session-name: ${{ vars.ROLE_SESSION_NAME }}
+        aws-region: ${{ secrets.AWS_REGION }}
+    - name:  Copy statics to s3
+      run: |
+        aws s3 sync . s3://${{ vars.BUCKET_NAME }} --delete --exclude ".git/*" --exclude ".github/*" --exclude ".gitignore"
+
+  InvalidateCloudFrontDistro:
+    needs: S3PackageUpload
+    runs-on: ubuntu-latest
+    environment: uat
+    steps:
+      - name: configure aws credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: arn:aws:iam::${{secrets.AWS_ACCOUNT_ID}}:role/${{vars.ROLE_TO_ASSUME}}
+          role-session-name: ${{ vars.ROLE_SESSION_NAME }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      - name:  Invalidate distribution
+        run: |
+          aws cloudfront create-invalidation --distribution-id ${{ vars.CF_DISTRO_ID }} --paths "/*"
