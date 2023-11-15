@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /vendor/
+Disallow: /js/
+Disallow: /img/
+Disallow: /css/
+Disallow: /preloader/
+Disallow: /site.webmanifest/
+Disallow: /favicon.png/

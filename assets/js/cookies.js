@@ -7,7 +7,7 @@ eventListeners();
 function eventListeners(){
     //Muestro el cartel cuando carga el documento
     document.addEventListener('DOMContentLoaded', ()=>{
-        createModal();
+        //createModal();
     })
 }
 function createModal(){
