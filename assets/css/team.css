@@ -113,3 +113,15 @@ body {
     padding-top: 2rem;
 }
 
+.owl-dot.active span {
+  background-color: #714fb6 !important;
+}
+
+#rrss img {
+  filter: invert(60%) sepia(9%) saturate(3844%) hue-rotate(218deg) brightness(10%) contrast(10%);
+  transition: filter 0.3s ease-in-out;
+}
+
+#rrss img:hover {
+  filter: invert(60%) sepia(9%) saturate(3844%) hue-rotate(218deg) brightness(89%) contrast(95%);
+}
