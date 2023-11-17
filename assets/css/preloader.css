@@ -19,64 +19,64 @@
   margin-bottom: -1px;
 }
 
-.preloader{
-    width: 100%;
-    height: auto;
-    background-color: white;
-    position: fixed;
-    left: 0;
-    top: 0;
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.preloader {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.preloader img{
-    animation: logo 2s ease-out infinite ;
-    position: absolute;
+.preloader img {
+  animation: logo 2s ease-out infinite;
+  position: absolute;
 }
-@keyframes logo{
-    100%{
-        opacity: 30%;
-    }
+@keyframes logo {
+  100% {
+    opacity: 30%;
+  }
 
-    50%{
-        opacity: 100%;
-    }
+  50% {
+    opacity: 100%;
+  }
 
-    0%{
-        opacity: 30%;
-    }
+  0% {
+    opacity: 30%;
+  }
 }
 
 .loader {
-    width: 6rem;
-    height: 4px;
-    display: inline-block;
-    position: relative;
-    background: #714FB6;
-    overflow: hidden;
-    margin-top: 7rem;
-  }
-  .loader::after {
-    content: '';
-    width: 6rem;
-    height: 4px;
-    background: #FFF;
-    position: absolute;
-    top: 0;
+  width: 6rem;
+  height: 4px;
+  display: inline-block;
+  position: relative;
+  background: #714fb6;
+  overflow: hidden;
+  margin-top: 7rem;
+}
+.loader::after {
+  content: "";
+  width: 6rem;
+  height: 4px;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  animation: animloader 2s ease-out infinite;
+}
+
+@keyframes animloader {
+  0% {
     left: 0;
-    box-sizing: border-box;
-    animation: animloader 2s ease-out infinite;
+    transform: translateX(-100%);
   }
-  
-  @keyframes animloader {
-    0% {
-      left: 0;
-      transform: translateX(-100%);
-    }
-    100% {
-      left: 100%;
-      transform: translateX(0%);
-    }
+  100% {
+    left: 100%;
+    transform: translateX(0%);
   }
+}
