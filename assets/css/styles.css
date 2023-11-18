@@ -259,6 +259,10 @@ a:hover {
   bottom: 33px;
   right: 33px;
 }
+.wrapped{
+display: flex;
+flex-wrap: wrap;
+}
 .btn-go-top {
   display: -ms-inline-flexbox;
   display: inline-flex;
