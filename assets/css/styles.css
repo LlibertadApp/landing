@@ -259,9 +259,9 @@ a:hover {
   bottom: 33px;
   right: 33px;
 }
-.wrapped{
-display: flex;
-flex-wrap: wrap;
+.wrapped {
+  display: flex;
+  flex-wrap: wrap;
 }
 .btn-go-top {
   display: -ms-inline-flexbox;
@@ -357,10 +357,12 @@ flex-wrap: wrap;
 .btn-arrow:hover .btn-send {
   opacity: 0.8;
 }
-.font-300,
+.font-300 {
+  font-weight: 300;
+}
 .title-hero {
   font-weight: 300;
-  font-size:40px;
+  font-size: 40px;
 }
 .font-light {
   font-weight: 400;
