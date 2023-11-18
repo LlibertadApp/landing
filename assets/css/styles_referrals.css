@@ -1,1 +1,278 @@
-.title-regular-1,.title-regular-2,.title-regular-3{font-style:normal;font-weight:400;line-height:120%}body{background-color:#000;color:#000}@media (max-width:1024px){.title-bold-1{font-size:42px}.title-bold-2{font-size:32px}}@media (max-width:375px){.title-bold-1{font-size:28px}}.title-regular-1{font-size:52px}.title-regular-2{font-size:42px}.title-regular-3{font-size:32px}.text-bold-1,.text-bold-2,.text-bold-3{font-style:normal;font-weight:700}.text-bold-1{font-size:18px;line-height:120%}.text-bold-2{font-size:16px;line-height:120%}.text-bold-3{font-size:14px;line-height:120%}.text-comments,.text-regular-1,.text-regular-2,.text-regular-3{font-weight:400;line-height:120%;font-style:normal}.text-regular-1{font-size:18px}.text-regular-2{font-size:16px}.text-regular-3{font-size:14px}.text-comments{font-size:18px;opacity:.6}.text-bold-4,.text-regular-4{font-size:12px}.text-bold-4{font-style:normal;font-weight:700;line-height:120%}.referral-input,.text-regular-4{font-style:normal;font-weight:400;line-height:120%}.new-revenew-img{max-width:100%!important}.bg-black,.infinix-bg-text-black{background:#000}.bg-light-gray{background:#f0f2f7;color:#000}.bg-medium-gray{background:#dfe0e3;color:#000}.bg-dark-gray{background:#3f4159;color:#fff}.bg-gray{background:#c0c4d7;color:#000}.bg-pink{background:#db3957;color:#000}.bg-white{background:#fff;color:#000}.infinix-bg-blue{background:#138be8}.infinix-blue{color:#138be8}.infinix-bg-red{background:#db3957}.infinix-red{color:#db3957}.infinix-bg-black-1{background:#090710}.infinix-black-1{color:#090710}.infinix-bg-black-2{background:#23262f}.infinix-black-2{color:#23262f}.infinix-text-black{color:#000}.infinix-bg-title-black,.infinix-bg-title-black-btn{background:#1c1c1c}.infinix-title-black{color:#1c1c1c}.infinix-bg-text-white{background:#fff}.infinix-text-white{color:#fff}.text-white{color:#fff!important}.infinix-bg-title-white,.infinix-bg-title-white-btn{background:#f4f5f6}.infinix-title-white{color:#f4f5f6}.infinix-bg-title-black-btn:hover,.infinix-bg-title-white-btn:hover{transition:background-color .5s}.referral-input{width:100%;padding:10px 18px;background:rgba(255,255,255,.2);border:none;color:#fff;font-size:16px}.bg-hero,.bg-service,.testimonial-card{background-size:contain;background-repeat:no-repeat;background-position:center}.referral-input::placeholder{color:#ffffffe8}.referral-button{padding:1em;font-weight:300!important;border-radius:80px;border:none}.referral-button:hover{opacity:.9}.testimonial-card{width:auto;min-height:290px;background-image:url(../img/partners/testimonials/thelab-bg.jpg);z-index:1}.bg-hero{background-image:url(../img/hero/bg-hero-referrals.png)}.partner_containter{display:grid;width:100%;margin:0 auto;grid-template-columns:repeat(6,1fr);grid-gap:10%;align-items:center;justify-items:center}.partner_containter img{max-width:100%;height:auto;aspect-ratio:3/2;object-fit:contain}@media (max-width:768px){h1{font-size:33px}.title-bold-2{font-size:22px}.partner_containter{grid-template-columns:repeat(3,1fr)}.partner_containter img{width:60%}}.card{min-height:350px}.card-signature{opacity:.5}.card-body{padding:48px!important}.card-service{height:485px;border-radius:0;-webkit-transition:.4s ease-in-out;transition:.4s ease-in-out;border:none}.card-service:hover{-webkit-transform:translateY(-2%);-ms-transform:translateY(-2%);transform:translateY(-2%);box-shadow:0 15px 25px 0 #0d152e;border:none}.icon-card{height:150px}.icon-card img{width:32px}.card-service .card-body,.card-service .card-reco-body{display:flex;flex-direction:column}.bg-service{background-image:url(../img/sections/bg-service.svg)}.awards img,.col-4 .d-flex .row img{width:100%}
+.title-regular-1,
+.title-regular-2,
+.title-regular-3 {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+body {
+  background-color: #000;
+  color: #000;
+}
+@media (max-width: 1024px) {
+  .title-bold-1 {
+    font-size: 42px;
+  }
+  .title-bold-2 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 375px) {
+  .title-bold-1 {
+    font-size: 28px;
+  }
+}
+.title-regular-1 {
+  font-size: 52px;
+}
+.title-regular-2 {
+  font-size: 42px;
+}
+.title-regular-3 {
+  font-size: 32px;
+}
+.text-bold-1,
+.text-bold-2,
+.text-bold-3 {
+  font-style: normal;
+  font-weight: 700;
+}
+.text-bold-1 {
+  font-size: 18px;
+  line-height: 120%;
+}
+.text-bold-2 {
+  font-size: 16px;
+  line-height: 120%;
+}
+.text-bold-3 {
+  font-size: 14px;
+  line-height: 120%;
+}
+.text-comments,
+.text-regular-1,
+.text-regular-2,
+.text-regular-3 {
+  font-weight: 400;
+  line-height: 120%;
+  font-style: normal;
+}
+.text-regular-1 {
+  font-size: 18px;
+}
+.text-regular-2 {
+  font-size: 16px;
+}
+.text-regular-3 {
+  font-size: 14px;
+}
+.text-comments {
+  font-size: 18px;
+  opacity: 0.6;
+}
+.text-bold-4,
+.text-regular-4 {
+  font-size: 12px;
+}
+.text-bold-4 {
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+.referral-input,
+.text-regular-4 {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+.new-revenew-img {
+  max-width: 100% !important;
+}
+.bg-black,
+.infinix-bg-text-black {
+  background: #000;
+}
+.bg-light-gray {
+  background: #f0f2f7;
+  color: #000;
+}
+.bg-medium-gray {
+  background: #dfe0e3;
+  color: #000;
+}
+.bg-dark-gray {
+  background: #3f4159;
+  color: #fff;
+}
+.bg-gray {
+  background: #c0c4d7;
+  color: #000;
+}
+.bg-pink {
+  background: #db3957;
+  color: #000;
+}
+.bg-white {
+  background: #fff;
+  color: #000;
+}
+.infinix-bg-blue {
+  background: #138be8;
+}
+.infinix-blue {
+  color: #138be8;
+}
+.infinix-bg-red {
+  background: #db3957;
+}
+.infinix-red {
+  color: #db3957;
+}
+.infinix-bg-black-1 {
+  background: #090710;
+}
+.infinix-black-1 {
+  color: #090710;
+}
+.infinix-bg-black-2 {
+  background: #23262f;
+}
+.infinix-black-2 {
+  color: #23262f;
+}
+.infinix-text-black {
+  color: #000;
+}
+.infinix-bg-title-black,
+.infinix-bg-title-black-btn {
+  background: #1c1c1c;
+}
+.infinix-title-black {
+  color: #1c1c1c;
+}
+.infinix-bg-text-white {
+  background: #fff;
+}
+.infinix-text-white {
+  color: #fff;
+}
+.text-white {
+  color: #fff !important;
+}
+.infinix-bg-title-white,
+.infinix-bg-title-white-btn {
+  background: #f4f5f6;
+}
+.infinix-title-white {
+  color: #f4f5f6;
+}
+.infinix-bg-title-black-btn:hover,
+.infinix-bg-title-white-btn:hover {
+  transition: background-color 0.5s;
+}
+.referral-input {
+  width: 100%;
+  padding: 10px 18px;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: #fff;
+  font-size: 16px;
+}
+.bg-hero,
+.bg-service,
+.testimonial-card {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.referral-input::placeholder {
+  color: #ffffffe8;
+}
+.referral-button {
+  padding: 1em;
+  font-weight: 300 !important;
+  border-radius: 80px;
+  border: none;
+}
+.referral-button:hover {
+  opacity: 0.9;
+}
+.testimonial-card {
+  width: auto;
+  min-height: 290px;
+  background-image: url(../img/partners/testimonials/thelab-bg.jpg);
+  z-index: 1;
+}
+.bg-hero {
+  background-image: url(../img/hero/bg-hero-referrals.png);
+}
+.partner_containter {
+  display: grid;
+  width: 100%;
+  margin: 0 auto;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10%;
+  align-items: center;
+  justify-items: center;
+}
+.partner_containter img {
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 33px;
+  }
+  .title-bold-2 {
+    font-size: 22px;
+  }
+  .partner_containter {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .partner_containter img {
+    width: 60%;
+  }
+}
+.card {
+  min-height: 350px;
+}
+.card-signature {
+  opacity: 0.5;
+}
+.card-body {
+  padding: 48px !important;
+}
+.card-service {
+  height: 485px;
+  border-radius: 0;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+  border: none;
+}
+.card-service:hover {
+  -webkit-transform: translateY(-2%);
+  -ms-transform: translateY(-2%);
+  transform: translateY(-2%);
+  box-shadow: 0 15px 25px 0 #0d152e;
+  border: none;
+}
+.icon-card {
+  height: 150px;
+}
+.icon-card img {
+  width: 32px;
+}
+.card-service .card-body,
+.card-service .card-reco-body {
+  display: flex;
+  flex-direction: column;
+}
+.bg-service {
+  background-image: url(../img/sections/bg-service.svg);
+}
+.awards img,
+.col-4 .d-flex .row img {
+  width: 100%;
+}

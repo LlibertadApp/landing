@@ -5,17 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- METAS -->
   <meta charset="utf-8">
-  <meta name="google-site-verification" content="csVV9XtUqcA_YMKUo0xd_rRkVd_xFU5KSUIzsjXC86E" />
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
-  <meta name="description" content="LibertApp es una aplicación anti-fraude diseñada para fiscalizar y detectar irregularidades en las mesas electorales. Usando AWS, OCR y DynamoDB">
-  <meta name="keywords" content="LibertApp, Anti-fraude, Fiscalización electoral, Mesas electorales, AWS, OCR, DynamoDB, Transparencia electoral, Democracia, App web, Escrutinio provisional, Escrutinio definitivo, Control electoral, Innovación tecnológica, App de campañas electorales, América Latina, Registro para fiscalizar, La Libertad Avanza, Preguntas frecuentes (FAQ), Aplicación web para elecciones">
-
+  <meta name="description" content="LibertApp es una aplicación anti-fraude diseñada para fiscalizar y detectar irregularidades en las mesas electorales.">
   <meta name="author" content="LibertApp">
   <!-- Fechas -->
   <meta name="date" content="2023-11-112">
   <meta name="last-modified" content="2023-11-11T13:00:31-03:00">
   <!-- Etiquetas Open Graph para Facebook -->
-  <meta property="og:url" content="https://pbs.twimg.com/profile_images/1720485852424372224/PIUb_U-G_400x400.jpg">
   <meta property="og:image" content="https://pbs.twimg.com/profile_images/1720485852424372224/PIUb_U-G_400x400.jpg">
   <meta property="og:description" content="LibertApp es una aplicación anti-fraude diseñada para fiscalizar y detectar irregularidades en las mesas electorales.">
   <meta property="og:title" content="LibertApp">
@@ -40,14 +36,13 @@
   <!-- Fuentes -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link href="./assets/css/font-family.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
   <!-- CSS -->
   <link rel="stylesheet" href="./assets/css/vendor.min.css">
   <link rel="stylesheet" href="./assets/css/swiper.css">
   <link rel="stylesheet" href="./assets/css/animate.css">
   <link rel="stylesheet" href="./assets/css/team.css">
-  <link rel="stylesheet" href="./assets/css/preloader.css">
   <!-- Estilos -->
   <link rel="stylesheet" href="./assets/css/styles_referrals.css">
   <link rel="stylesheet" href="./assets/css/styles.css?v=2.1">
@@ -61,7 +56,7 @@
       <nav class="navbar-nav-wrap">
         <!-- Default Logo -->
         <a class="navbar-brand" href="/#">
-          <img class="navbar-brand-logo" src="assets/img/logo/logo.svg" alt="LibertApp logo" title="Navbar logo">
+          <img class="navbar-brand-logo" src="assets/img/logo/logo.svg">
         </a>
         <!-- End Default Logo -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSite"
@@ -85,6 +80,11 @@
               <a class="nav-link scrollto" href="#faq">Preguntas Frecuentes</a>
             </li>
             <!-- End Nav item -->
+             <!-- Nav item -->
+            <li class="nav-item">
+               <a class="nav-link" href="https://dashboard.dev.libertapp.net" target="_blank"> Escrutinio</a>
+           </li>
+            <!-- End Nav item -->
             <!-- Nav item -->
             <li class="nav-item">
                <a class="nav-link" href="https://milei2023.com.ar/denuncias" target="_blank">Denunciar <br>(Página Externa)</a>
@@ -97,12 +97,6 @@
   </header>
   <div id="backdrop-blur-overlay" class=""></div>
   <!-- ========== END HEADER ========== -->
-  <!-- ========== PRELOADER ========== -->
-  <div class="preloader ">
-    <img src="./assets/img/logo/logo.svg" alt="preloader" title="Libertapp logo preloader">
-    <div class="loader">
-    </div>
-  </div>
   <!-- ========== END PRELOADER ========== -->
   <!-- ========== MAIN CONTENT ========== -->
   <main id="content" role="main">
@@ -117,7 +111,7 @@
               <div class="position-relative h-100 d-flex align-items-center pb-5 pb-lg-0">
                 <!-- Hide the image on screens smaller than large (lg) -->
                 <div class="img-hero d-none d-lg-block" data-jarallax-element="-45 0" data-disable-parallax-down="lg">
-                  <img src="assets/img/hero/hero2.png" alt="libertapp on mobile" title="Libertapp logo on mobile" style="width: 400px; max-width: 120%;">
+                  <img src="assets/img/hero/hero2.png" style="width: 400px; max-width: 120%;">
                 </div>
               </div>
             </div>
@@ -131,8 +125,10 @@
                     </span>Ingresa a la app y llevemos la <span class="selected">fiscalización</span> a otro nivel.
                   </a>
                 </h1>
-               
-                <a id="link-to-app" href="#" target="_blank" class="btn-violet">
+
+                </a>
+                <a href="/assets/img/manual/Manual_de_uso_Libertapp.pdf" target="_blank" class="btn-violet">
+
                   <div class="align-items-center pb-1 col flex-column mx-1">
                     <svg width="32px" height="32px" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg"
                       style="enable-background:new 0 0 192 192" xml:space="preserve" fill="#000000">
@@ -146,7 +142,7 @@
                       </g>
                     </svg>
                   </div>
-                   LibertApp | WebApp
+                   Soy fiscal, como uso LibertApp?
                 </a>
               </div>
             </div>
@@ -214,7 +210,7 @@
                 control electoral automatizando la comparación de los telegramas con las actas de escrutinio.
               </p>
             </div>
-            <a href="https://libertapp.net/#" target="_blank" class="btn-violet">
+            <a href="https://libertapp.net/" target="_blank" class="btn-violet">
                   <div class="align-items-center pb-1 col flex-column mx-1">
                     <svg width="32px" height="32px" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg"
                       style="enable-background:new 0 0 192 192" xml:space="preserve" fill="#000000">
@@ -233,7 +229,7 @@
           </div>
           <!-- End Col -->
           <div class="col-lg-5 order-lg-1 mb-4 mb-lg-0">
-            <img src="assets/img/svg/lapp-out.svg" alt="Libertapp side logo" title="Libertapp big side logo" class="img-fluid wow fadeInUpSmall" data-wow-duration="1s"
+            <img src="assets/img/svg/lapp-out.svg" class="img-fluid wow fadeInUpSmall" data-wow-duration="1s"
               data-wow-delay=".2s">
           </div>
           <!-- End Col -->
@@ -274,7 +270,7 @@
           </div>
           <!-- End Col -->
           <div class="col-lg-5 order-lg-1 mb-4 mb-lg-0">
-            <img src="assets/img/sections/ruta.webp" alt="telegram flow without libertapp" title="Telegram flow" class="img-fluid wow fadeInUpSmall" data-wow-duration="1s"
+            <img src="assets/img/sections/ruta.webp" class="img-fluid wow fadeInUpSmall" data-wow-duration="1s"
               data-wow-delay=".2s">
           </div>
           <!-- End Col -->
@@ -299,7 +295,7 @@
       <div class="container">
         <div class="row align-items-center content-space-b-lg-3">
           <div class="col-lg-6 order-lg-1 mb-4 mb-lg-0">
-            <img src="assets/img/sections/app3.png" alt="libertapp telegram influency" title="Libertapp objetive" class="img-fluid wow fadeInUpSmall" data-wow-duration="1s"
+            <img src="assets/img/sections/app3.png" class="img-fluid wow fadeInUpSmall" data-wow-duration="1s"
               data-wow-delay=".2s" style="margin-bottom: 20px;">
           </div>
           <!-- End Col -->
@@ -340,7 +336,7 @@
       <div class="container">
         <div class="row align-items-center content-space-b-lg-3 gap-8">
           <div class="col-lg-5 order-lg-1 mb-4 mb-lg-0">
-            <img src="assets/img/svg/lla-big.svg" alt="la libertad avanza logo" title="La Libertad Avanza" class="img-fluid wow fadeInUpSmall" data-wow-duration="1s"
+            <img src="assets/img/svg/lla-big.svg" class="img-fluid wow fadeInUpSmall" data-wow-duration="1s"
               data-wow-delay=".2s">
           </div>
           <div class="col-lg-5 order-lg-2">
@@ -353,7 +349,7 @@
                   La fiscalización juega un papel crucial en cada elección, por eso, los instamos a sumarse de manera
                   más activa a nuestra democracia.
                 </br>
-                  ¡Regístrate para fiscalizar con La Libertad Avanza haciendo click en el botón de abajo!
+                ¡Registrate para fiscalizar en la pagina oficial de La Libertad Avanza haciendo click en el boton de abajo!
                 </p>
               </div>
               <div class="pb-10 pb-lg-0 wow fadeInUpSmall" data-wow-duration="1s" data-wow-delay=".4s">
@@ -373,7 +369,7 @@
             <div class="owl-carousel owl-carousel1 owl-theme">
               <div class="card text-center h-auto">
                 <div class=" text-center imgTeam">
-                  <img src="assets\img\svg\download-icon.svg" class="w-25" alt="download icon" title="online">
+                  <img src="assets\img\svg\download-icon.svg" class="w-25" >
                 </div>
                 <div class="card-body">
                   <div class="text-center pb-1">
@@ -386,7 +382,7 @@
               </div>
               <div class="card text-center h-auto">
                 <div class="text-center imgTeam">
-                  <img src="assets\img\svg\form-icon.svg" class="w-25" alt="form icon" title="libertapp function">
+                  <img src="assets\img\svg\form-icon.svg" class="w-25">
                 </div>
                 <div class="card-body">
                   <div class="text-center pb-1">
@@ -399,7 +395,7 @@
               </div>
               <div class="card text-center h-auto">
                 <div class="mb-4 text-center imgTeam">
-                  <img src="assets\img\svg\not-cash.svg" class="w-25" alt="no money needed icon" title="free">
+                  <img src="assets\img\svg\not-cash.svg" class="w-25" >
                 </div>
                 <div class="card-body">
                   <div class="text-center pb-1">
@@ -411,7 +407,7 @@
               </div>
               <div class="card text-center h-auto">
                 <div class=" text-center imgTeam">
-                  <img src="assets\img\svg\cloud-check.svg" class="w-25" alt="objetive icon" title="Libertapp objetive">
+                  <img src="assets\img\svg\cloud-check.svg" class="w-25">
                 </div>
                 <div class="card-body">
                   <div class="text-center pb-1">
@@ -424,7 +420,7 @@
               </div>
               <div class="card text-center h-auto">
                 <div class="mb-4 text-center imgTeam">
-                  <img src="assets\img\svg\finish-icon.svg" class="w-25" alt="deadline icon" title="publish date">
+                  <img src="assets\img\svg\finish-icon.svg" class="w-25" >
                 </div>
                 <div class="card-body">
                   <div class="text-center pb-1">
@@ -448,17 +444,17 @@
             <ul class="list-inline mb-4 gap-2">
               <li class="list-inline-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
                 <a class="btn btn-sm btn-icon" href="https://twitter.com/libertapp" target="_blank">
-                  <img src="assets/img/social/ic-twitter.svg" alt="Twitter" title="Twitter link">
+                  <img src="assets/img/social/ic-twitter.svg" >
                 </a>
               </li>
               <li class="list-inline-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
                 <a class="btn btn-sm btn-icon" href="https://www.instagram.com/libertadapp/" target="_blank">
-                  <img src="assets/img/social/ic-instagram.svg" alt="Instagram" title="Instagram link">
+                  <img src="assets/img/social/ic-instagram.svg" >
                 </a>
               </li>
               <li class="list-inline-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.7s">
                 <a class="btn btn-sm btn-icon" href="https://www.tiktok.com/@libertadapp" target="_blank">
-                  <img src="assets/img/svg/ic-tiktok.svg" alt="TikTok" title="TikTok link">
+                  <img src="assets/img/svg/ic-tiktok.svg" >
                 </a>
               </li>
 
@@ -477,18 +473,10 @@
     <div class="btn-go-top"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z"/></svg></div>
   </a>
   <script src="assets/js/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.9/SmoothScroll.min.js"></script>
-  <script src="assets/js/vendor.min.js"></script>
-  <script src="assets/js/jquery.easing.min.js"></script>
-  <script src="assets/js/jquery.magnific-popup.js"></script>
   <script src="assets/js/wow.js"></script>
-  <script src="assets/js/preloader.js"></script>
-  <script src="assets/js/jarallax.min.js"></script>
-  <script src="assets/js/jarallax-element.min.js"></script>
   <script src="assets/js/scripts.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <script src="assets/js/team.js"></script>
-  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/22404315.js"></script>
 </body>
 
 </html>

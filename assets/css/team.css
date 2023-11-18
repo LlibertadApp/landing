@@ -61,7 +61,7 @@ body {
   height: 100px;
 }
 .gtco-testimonials .card h5 {
-  color: #DB3957;
+  color: #db3957;
   font-size: 21px;
   line-height: 1.3;
 }
@@ -98,18 +98,31 @@ body {
     margin-top: 20px;
   }
 }
-.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
   outline: 0;
 }
 .owl-carousel button.owl-dot {
   outline: 0;
 }
 
-.imgTeam{
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 2rem;
+.imgTeam {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
 }
 
+.owl-dot.active span {
+  background-color: #714fb6 !important;
+}
+
+#rrss img {
+  filter: invert(60%) sepia(9%) saturate(3844%) hue-rotate(218deg) brightness(10%) contrast(10%);
+  transition: filter 0.3s ease-in-out;
+}
+
+#rrss img:hover {
+  filter: invert(60%) sepia(9%) saturate(3844%) hue-rotate(218deg) brightness(89%) contrast(95%);
+}
