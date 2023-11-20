@@ -4851,6 +4851,12 @@ pre.prism-light[class*="language-"] {
   display: -ms-flexbox !important;
   display: flex !important;
 }
+.d-flex-end {
+  display: -ms-flexbox !important;
+  display: flex !important;
+  justify-content: flex-end !important;
+  align-items: center; /* You can adjust this based on your specific needs */
+}
 .d-inline-flex {
   display: -ms-inline-flexbox !important;
   display: inline-flex !important;
